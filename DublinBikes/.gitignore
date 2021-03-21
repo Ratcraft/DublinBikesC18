@@ -7,5 +7,4 @@ obj
 .DS_Store
 *.db
 *appsettings.JSON
-wwwroot
 publish
