@@ -8,6 +8,8 @@ namespace DublinBikes.Models
 {
     public class DublinBike
     {
+        [Key]
+        public int Id { get; set; }
         [Required]
         public int Number { get; set; }
 
