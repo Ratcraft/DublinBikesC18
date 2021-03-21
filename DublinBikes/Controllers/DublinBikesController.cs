@@ -10,11 +10,11 @@ using DublinBikes.Models;
 
 namespace DublinBikes.Controllers
 {
-    public class DublinBikeController : Controller
+    public class DublinBikesController : Controller
     {
         private readonly MvcBikeContext _context;
 
-        public DublinBikeController(MvcBikeContext context)
+        public DublinBikesController(MvcBikeContext context)
         {
             _context = context;
         }
