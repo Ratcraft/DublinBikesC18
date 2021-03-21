@@ -27,7 +27,7 @@ namespace DublinBikes
         {
             services.AddControllersWithViews();
             services.AddDbContext<MvcBikeContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("MVCBikeContext")));
+            options.UseSqlServer(Configuration.GetConnectionString("MvcBikeContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
