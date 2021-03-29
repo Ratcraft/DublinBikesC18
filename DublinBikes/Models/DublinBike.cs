@@ -27,9 +27,11 @@ namespace DublinBikes.Models
         public string Address { get; set; }
 
         [Required]
+        [Range(-90, 90)]
         public float Latitude { get; set; }
 
         [Required]
+        [Range(-90,90)]
         public float Longitude { get; set; }
 
 
